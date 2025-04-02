@@ -9,7 +9,7 @@ dotenv.config();
 // };
 module.exports = {
   solidity: "0.8.28",
-  // defaultNetwork: "sepolia",
+  defaultNetwork: "sepolia",
   etherscan: {
     apiKey: process.env.ETHERSCAN_API_KEY,
     // 添加超时配置
